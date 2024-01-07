@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(56, 56, 73);
+    
+}
+
+
+.foto1{
+    max-width: 70%;
+    position: absolute;
+    padding: 50px;
+    top: 1%;
+    left: 20%;
+    animation-name: mover;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.title3{
+    text-align: center;
+    color: coral;
+    font-size: xx-large;
+}
+.contenedor1{
+    max-width: 100%;
+    
+    height: 400px;
+    position: relative;
+    background-color: rgb(247, 237, 237);
+    
+}
+.contenedorcontacto{
+    max-width: 100%;
+    height: 1100px;
+    
+    background-color: rgb(234, 230, 230);
+}
+.caja1{
+    max-width: 1000px;
+    height: 300px;
+    
+    background-color:  rgb(206, 30, 30);
+    padding: 30px;
+    margin-left: 100px;
+    display: flex;
+
+
+}
+.tituloContacto{
+    width: 1000px;
+    height: 45px;
+    
+    background-color: rgb(250, 250, 250);
+    
+}
+.footercontacto{
+    width: 100%;
+    height: 300px;
+}
+.contenedorcontacto2{
+    width: 400px;
+    float: left;
+    border: 1px solid  rgb(227, 219, 219);
+    height: 330px;
+    margin-left: 100px;
+    background-color:  rgb(234, 230, 230);
+}
+.contenedorcontacto3{
+    width: 400px;
+    float: left;
+    border: 1px solid rgb(227, 219, 219);
+    height: 330px;
+    margin-left: 55px;
+    background-color:  rgb(234, 230, 230);
+
+}
+.consulta{
+    font-size: x-large;
+    color: coral;
+}
+.datos{
+    width: 500px;
+    height: 250px;
+    
+    float: right;
+}
+.formu{
+    width: 1000px;
+    height: 250px;
+    
+}
+.formulario{
+    width: 1000px;
+    height: 300px;
+    border: 1px solid rgb(189, 183, 183);
+    margin-left: 100px;
+    background-color: rgb(250, 250, 250);
+}
+.cajainfo{
+    width: 600px;
+    height: 200px;
+    
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.cruz{
+    color: coral;
+    font-size: xx-large;
+}
+.cajatitulo{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(157, 152, 152);
+    background-color: white;
+    
+}
+.nuestra{
+    color: rgb(142, 142, 134);
+    font-size: x-large;
+}
+.foto159{
+    max-width: 100%;
+    height: 220px;
+}
+.fotocontac{
+    width: 700px;
+    height: 250px;
+    
+    top: 0;
+    padding: 5px;
+    margin-left: 30px;
+    display: flex;
+    
+}
+.contenedor2{
+    width: 400px;
+    float: left;
+    
+    height: 200px;
+    padding: 10px;
+    margin-left: 55px;
+}
+.contenedor3{
+    width: 400px;
+    float: left;
+    
+    height: 200px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.contenedor4{
+    width: 400px;
+    float: left;
+    
+    height: 200px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.contenedor5{
+    width: 400px;
+    float: left;
+    
+    height: 350px;
+    margin-left: 55px;
+}
+.contenedor6{
+    width: 400px;
+    float: left;
+    
+    height: 350px;
+    margin-left: 10px;
+}
+.contenedor7{
+    width: 400px;
+    float: left;
+    
+    height: 350px;
+    margin-left: 10px;
+}
+.contenedor8{
+    width: 400px;
+    float: left;
+    
+    height: 330px;
+    margin-left: 55px;
+    background-color: rgb(247, 237, 237);
+}
+.contenedor9{
+    width: 400px;
+    float: left;
+    
+    height: 330px;
+    margin-left: 10px;
+    background-color: rgb(247, 237, 237);
+}
+.title{
+    text-align: center;
+    color: coral;
+}
+.title2{
+    text-align: right;
+    font-size: xx-large;
+    color: coral;
+}
+.agencia{
+    width: 300px;
+    height: 200px;
+    animation-name: mover;
+	animation-duration: 2s;
+	animation-iteration-count:inherit;
+	animation-direction: alternate;
+}
+
+.menu{
+    text-align: right;
+    background-color: rgb(126, 214, 26);
+    height: 45px;
+    max-width: 100%;
+    display: inline;
+
+}
+.menu  ul li{
+    text-align: right;
+    display: inline;
+    height: 45px;
+    max-width: 100%; 
+    color: rgb(127, 255, 138); 
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+    
+}
+.nav{
+    max-width: 100%;
+    height: 25px;
+    background-color: gray;
+    
+}
+.footer{
+    color: gray;
+}
+.fin{
+    max-width: 100%;
+    height: 20px;
+    background-color: cornsilk;
+}
+.infoenmenu{
+    float: left;
+    top: 0;
+    position: absolute;
+}
+@keyframes mover {
+    from {transform: translateX(0);}
+    to {transform: translateX(200px);}
+}
+#clock {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+}
